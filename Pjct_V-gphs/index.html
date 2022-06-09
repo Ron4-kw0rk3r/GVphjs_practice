@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--web asembly on python-->
+<html lang="es">
+    <head>
+        <meta charset="uff-8">
+        <meta name="viewport" content="widht=device-width, initial-scale=1">
+        <title> Web assembly code in G-Vphjs </title>
+        <!-- code source net  in python coding  in test script -->>
+        <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css"/>
+        <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+        
+        <!--
+        <py-config>
+            - autoclose_loader: false
+        </py-config>
+        -->
+        <py-env>
+            - sympy
+            - pythonturtle 
+            - matplotlib   
+        </py-env>
+        <!--how resolv install creating not module all import settings  config all features -->
+        <!--setings -->     
+    </head>
+    <style>
+
+        body{ color: #F1F1F1; 
+            background-color: #000000;
+        }
+        
+        p{ color: #F1f1f1
+
+            foregraund-color: #F11F11;
+        }
+        h1{ color: #F10000;
+
+            font-size: 82px;
+
+        }
+    </style>
+
+    <body>
+        <p> hello fix 
+        
+        <br>
+
+        <h1> 
+            <center> VECTOR AND GRAPHICS </center>
+        </h1>
+
+
+        <p> how build segment code leernnig assembly no request  node settings jobs in settings
+
+        
+        <!--background{
+            style"#000000"
+        }-->
+
+        <!--how to  load modules in python on html-->
+        <!--py-env>
+            #- numpy
+            - pygame
+        </py-env-->
+        <!--header  load  in async in html download  modules -->
+        
+
+        <py-script> 
+        
+            #async def main():
+            #    await micropip.install(["turtle", "sympy"])
+            #await loop.run_until_complete(main())
+          
+            import sys
+            import sympy
+            import pythonturtle
+            from pythonturtle import *
+            import matplotlib
+            import time 
+
+            check = [
+
+                "JERSON", "JERSON", 
+                "JERSON", "JERSON"
+
+            ]
+            
+
+
+
+            def function():
+                #sect =  pythonturtle.view()
+                #pythonturtle.init()
+
+                pythonturtle.go(100)
+                #sect.sleep(100)
+                forward(100)
+                print(dir(pythonturtle))
+                for x in range(4):
+                    time.sleep(0.5)
+                    forward(900)
+                    print('hello turtle')
+                    #print(f'hello freind  --> {x}') 
+                    print(f'#[{x}] <---> desde el servidor local frontend {check[x]}' )
+                   #print(sys.('uname'))
+
+            if __name__ == "__main__":
+                function()
+        </py-script>
+        <!--example testing code  python firts version -->
+    </body>
+</html>
